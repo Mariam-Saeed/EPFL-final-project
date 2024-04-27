@@ -45,7 +45,7 @@ const homeContent = fillContent(data);
 
 mainSection.innerHTML = homeContent;
 
-toggleWhishlist(mainSection, data, wishlistArr);
+toggleWhishlist(data, wishlistArr);
 
 toggleCart(data, cart);
 

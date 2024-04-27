@@ -24,7 +24,7 @@ export function fillContent(data) {
 	return content;
 }
 
-export function toggleWhishlist(mainSection, data, wishlistArr) {
+export function toggleWhishlist(data, wishlistArr) {
 	const cards = document.getElementsByClassName('card');
 
 	//* Add,remove items to wishlist
