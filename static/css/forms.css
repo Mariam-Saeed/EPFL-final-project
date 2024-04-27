@@ -1,0 +1,69 @@
+body {
+	font-family: 'Rubik', sans-serif;
+}
+
+.signup-form,
+.login-form,
+.info-form {
+	background-color: #06a3da;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	width: 400px;
+	margin: 100px auto 30px;
+}
+
+.signup-form input[type='text'],
+.signup-form input[type='email'],
+.signup-form input[type='password'],
+.login-form input[type='email'],
+.login-form input[type='password'],
+.info-form input[type='text'],
+.info-form input[type='tel'] {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 15px;
+	border: none;
+	border-radius: 5px;
+	outline: none;
+}
+
+.signup-form input[type='submit'],
+.login-form input[type='submit'],
+.info-form input[type='submit'] {
+	background-color: #091e3e;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	padding: 10px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+.signup-form input[type='submit']:hover {
+	background-color: #0579a8;
+}
+
+#error {
+	color: red;
+	font-size: 24px;
+	text-align: center;
+}
+
+.form-text {
+	width: 20%;
+	margin: 0 auto 20px;
+	display: flex;
+	gap: 5px;
+}
+
+.form-text a {
+	font-size: 20px;
+	color: #06a3da;
+	text-decoration: none;
+}
+
+.form-text p {
+	font-size: 20px;
+	color: #091e3e;
+}

@@ -1,0 +1,16 @@
+{% extends 'index.html' %}
+
+{% block body %}
+<form class="signup-form" action="/" method="post">
+    <input type="text" name="name" placeholder="Enter your name">
+    <input type="email" name="email" placeholder="Enter your email">
+    <input type="password" name="password" placeholder="password">
+    <input type="password" name="confirm-password" placeholder="confirm password">
+    <input type="submit" value="Sign up">
+</form>
+<div class="form-text">
+    <p>ALready have an account?</p>
+    <a href="/login">Login</a>
+</div>
+<p id="error">{{ error }}</p>
+{% endblock %}

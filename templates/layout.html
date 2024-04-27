@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+    <link rel="shortcut icon" href="../static/icon-E-commerce-and-websites.webp" type="image/x-icon">
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <h1 class="nav-title"> <a href="/home" id="home">Electronics Store</a></h1>
+        </div>
+        <ul>
+            <li><a href="/wishlist" id="wishlist">Wishlist</a></li>
+            <li><a href="/cart" id="cart">Cart</a></li>
+            <li><a href="/orders" id="orders">Orders</a></li>
+            <li><a href="/profile" id="profile">Profile</a></li>
+            <li><a href="/logout">Logout</a></li>
+        </ul>
+    </nav>
+
+    {% block body %}
+    {% endblock %}
+
+    <footer>
+        <p>
+            © 2024 <span class="site-name">Electronics Store</span>. All Rights Reserved | Made with
+            <span class="heart">❤</span> by
+            <span class="footer-name">Mariam Saeed</span>
+        </p>
+    </footer>
+</body>
+
+</html>

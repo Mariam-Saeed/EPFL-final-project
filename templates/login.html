@@ -1,0 +1,14 @@
+{% extends 'index.html' %}
+
+{% block body %}
+<form class="login-form" action="/login" method="post">
+    <input type="email" name="email" placeholder="Enter your email">
+    <input type="password" name="password" placeholder="password">
+    <input type="submit" value="Log in">
+</form>
+<div class="form-text">
+    <p>Don't have an account ?</p>
+    <a href="/">Sign up</a>
+</div>
+<p id="error">{{ error }}</p>
+{% endblock %}

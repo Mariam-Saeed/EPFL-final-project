@@ -1,0 +1,10 @@
+{% extends 'index.html' %}
+
+{% block body %}
+<form class="info-form" action="/info" method="post">
+    <input type="tel" name="phone" placeholder="Enter your phone number" value="{{phone}}">
+    <input type="text" name="address" placeholder="Enter your Address" value="{{address}}">
+    <input type="submit" value="Order now">
+</form>
+<p id="error">{{ error }}</p>
+{% endblock %}
