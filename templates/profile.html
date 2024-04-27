@@ -1,10 +1,12 @@
 {% extends 'layout.html' %}
 
 {% block body %}
-<!-- <h1>Profile</h1> -->
-<p>Name: {{name}}</p>
-<p>Email: {{email}}</p>
-<p>Phone number: {{phone}}</p>
-<p>Address: {{address}}</p>
+<div class="profile">
+    <p class="name">Name: {{name}}</p>
+    <p class="email">Email: {{email}}</p>
+    <p class="phone">Phone number: {{phone}}</p>
+    <p class="address">Address: {{address}}</p>
+</div>
+
 <script type="module" src="../static/js/profile.js"></script>
 {% endblock %}

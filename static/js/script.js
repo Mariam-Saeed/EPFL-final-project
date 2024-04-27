@@ -71,6 +71,6 @@ search.addEventListener('change', () => {
 		mainSection.innerHTML = '<p class="empty-text">Not found</p>';
 	}
 
-	toggleWhishlist(mainSection, data, wishlistArr);
+	toggleWhishlist(data, wishlistArr);
 	toggleCart(data, cart);
 });

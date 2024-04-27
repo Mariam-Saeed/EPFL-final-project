@@ -67,3 +67,18 @@ body {
 	font-size: 20px;
 	color: #091e3e;
 }
+
+.profile {
+	width: 40%;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 40px;
+}
+
+.name,
+.email,
+.phone,
+.address {
+	font-size: 25px;
+}
